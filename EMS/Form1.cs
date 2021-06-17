@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BusinessLayer;
 using EMS.Business.Implementation;
 
 namespace EMS
@@ -25,12 +26,8 @@ namespace EMS
 
         public void StartActivity()
         {
-            EmployeeService employeeService = new EmployeeService();
-           // bool response = employeeService.ValidateEmployeeName("hari"); // return false
-            //if (!response)
-            //    MessageBox.Show("Employee Name already exists");            
-
-           // bool response1 = employeeService.ValidateEmployeeName("dhiraj"); // return true
+            EmployeeService employee = new EmployeeService();
+            employee.GetEmployeeDetails();
         }
     }
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using EMS.Models;
 
-namespace EMS.Business.Interfaces
+namespace BusinessLayer
 {
     public interface IEmployeeService
     {

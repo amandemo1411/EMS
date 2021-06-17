@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace EMS.Business.Implementation
+namespace BusinessLayer
 {
-    public class EmployeeService
+    public class EmployerService
     {
 
     }
